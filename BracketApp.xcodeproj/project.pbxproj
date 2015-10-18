@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA974E4E1BD3F33C00812D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974E4D1BD3F33C00812D8D /* main.m */; };
+		DA974E511BD3F33C00812D8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974E501BD3F33C00812D8D /* AppDelegate.m */; };
+		DA974E591BD3F33C00812D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA974E581BD3F33C00812D8D /* Assets.xcassets */; };
+		DA974E5C1BD3F33C00812D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA974E5A1BD3F33C00812D8D /* LaunchScreen.storyboard */; };
+		DA974E671BD3F33C00812D8D /* BracketAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974E661BD3F33C00812D8D /* BracketAppTests.m */; };
+		DA974E721BD3F33C00812D8D /* BracketAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974E711BD3F33C00812D8D /* BracketAppUITests.m */; };
+		DA974E871BD3F3D000812D8D /* BAMuncheryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974E861BD3F3D000812D8D /* BAMuncheryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DA974EB31BD3F47900812D8D /* UIBezierPath+BracketApp.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974E9F1BD3F47900812D8D /* UIBezierPath+BracketApp.m */; settings = {ASSET_TAGS = (); }; };
+		DA974EB41BD3F47900812D8D /* UIButton+BracketApp.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974EA11BD3F47900812D8D /* UIButton+BracketApp.m */; settings = {ASSET_TAGS = (); }; };
+		DA974EB51BD3F47900812D8D /* UIFont+BracketApp.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974EA31BD3F47900812D8D /* UIFont+BracketApp.m */; settings = {ASSET_TAGS = (); }; };
+		DA974EB61BD3F47900812D8D /* UILabel+BracketApp.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974EA51BD3F47900812D8D /* UILabel+BracketApp.m */; settings = {ASSET_TAGS = (); }; };
+		DA974EB71BD3F47900812D8D /* UITextField+BracketApp.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974EA71BD3F47900812D8D /* UITextField+BracketApp.m */; settings = {ASSET_TAGS = (); }; };
+		DA974EB81BD3F47900812D8D /* UIView+BracketApp.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974EA91BD3F47900812D8D /* UIView+BracketApp.m */; settings = {ASSET_TAGS = (); }; };
+		DA974EBA1BD3F47900812D8D /* BADrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974EAF1BD3F47900812D8D /* BADrawView.m */; settings = {ASSET_TAGS = (); }; };
+		DA974EBB1BD3F47900812D8D /* BAThinLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974EB11BD3F47900812D8D /* BAThinLineView.m */; settings = {ASSET_TAGS = (); }; };
+		DADA23061BD443E300DA7DA9 /* munchery_roll.png in Resources */ = {isa = PBXBuildFile; fileRef = DADA23031BD443E300DA7DA9 /* munchery_roll.png */; settings = {ASSET_TAGS = (); }; };
+		DADA23071BD443E300DA7DA9 /* star_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = DADA23041BD443E300DA7DA9 /* star_normal.png */; settings = {ASSET_TAGS = (); }; };
+		DADA23081BD443E300DA7DA9 /* star_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = DADA23051BD443E300DA7DA9 /* star_selected.png */; settings = {ASSET_TAGS = (); }; };
+		DADA230B1BD4443A00DA7DA9 /* BracketBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA230A1BD4443A00DA7DA9 /* BracketBox.framework */; settings = {ASSET_TAGS = (); }; };
+		DADA23101BD4493800DA7DA9 /* BAExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA230F1BD4493800DA7DA9 /* BAExamplesTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA974E631BD3F33C00812D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA974E411BD3F33C00812D8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA974E481BD3F33C00812D8D;
+			remoteInfo = BracketApp;
+		};
+		DA974E6E1BD3F33C00812D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA974E411BD3F33C00812D8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA974E481BD3F33C00812D8D;
+			remoteInfo = BracketApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA974E491BD3F33C00812D8D /* BracketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BracketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA974E4D1BD3F33C00812D8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA974E4F1BD3F33C00812D8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA974E501BD3F33C00812D8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA974E581BD3F33C00812D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA974E5B1BD3F33C00812D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA974E5D1BD3F33C00812D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA974E621BD3F33C00812D8D /* BracketAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BracketAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA974E661BD3F33C00812D8D /* BracketAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BracketAppTests.m; sourceTree = "<group>"; };
+		DA974E681BD3F33C00812D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA974E6D1BD3F33C00812D8D /* BracketAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BracketAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA974E711BD3F33C00812D8D /* BracketAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BracketAppUITests.m; sourceTree = "<group>"; };
+		DA974E731BD3F33C00812D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA974E851BD3F3D000812D8D /* BAMuncheryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAMuncheryViewController.h; sourceTree = "<group>"; };
+		DA974E861BD3F3D000812D8D /* BAMuncheryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAMuncheryViewController.m; sourceTree = "<group>"; };
+		DA974E9E1BD3F47900812D8D /* UIBezierPath+BracketApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+BracketApp.h"; sourceTree = "<group>"; };
+		DA974E9F1BD3F47900812D8D /* UIBezierPath+BracketApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+BracketApp.m"; sourceTree = "<group>"; };
+		DA974EA01BD3F47900812D8D /* UIButton+BracketApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BracketApp.h"; sourceTree = "<group>"; };
+		DA974EA11BD3F47900812D8D /* UIButton+BracketApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BracketApp.m"; sourceTree = "<group>"; };
+		DA974EA21BD3F47900812D8D /* UIFont+BracketApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BracketApp.h"; sourceTree = "<group>"; };
+		DA974EA31BD3F47900812D8D /* UIFont+BracketApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BracketApp.m"; sourceTree = "<group>"; };
+		DA974EA41BD3F47900812D8D /* UILabel+BracketApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BracketApp.h"; sourceTree = "<group>"; };
+		DA974EA51BD3F47900812D8D /* UILabel+BracketApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BracketApp.m"; sourceTree = "<group>"; };
+		DA974EA61BD3F47900812D8D /* UITextField+BracketApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BracketApp.h"; sourceTree = "<group>"; };
+		DA974EA71BD3F47900812D8D /* UITextField+BracketApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BracketApp.m"; sourceTree = "<group>"; };
+		DA974EA81BD3F47900812D8D /* UIView+BracketApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BracketApp.h"; sourceTree = "<group>"; };
+		DA974EA91BD3F47900812D8D /* UIView+BracketApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BracketApp.m"; sourceTree = "<group>"; };
+		DA974EAE1BD3F47900812D8D /* BADrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADrawView.h; sourceTree = "<group>"; };
+		DA974EAF1BD3F47900812D8D /* BADrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADrawView.m; sourceTree = "<group>"; };
+		DA974EB01BD3F47900812D8D /* BAThinLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAThinLineView.h; sourceTree = "<group>"; };
+		DA974EB11BD3F47900812D8D /* BAThinLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAThinLineView.m; sourceTree = "<group>"; };
+		DADA23031BD443E300DA7DA9 /* munchery_roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = munchery_roll.png; sourceTree = "<group>"; };
+		DADA23041BD443E300DA7DA9 /* star_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_normal.png; sourceTree = "<group>"; };
+		DADA23051BD443E300DA7DA9 /* star_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_selected.png; sourceTree = "<group>"; };
+		DADA230A1BD4443A00DA7DA9 /* BracketBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BracketBox.framework; path = Carthage/Build/iOS/BracketBox.framework; sourceTree = "<group>"; };
+		DADA230E1BD4493800DA7DA9 /* BAExamplesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAExamplesTableViewController.h; sourceTree = "<group>"; };
+		DADA230F1BD4493800DA7DA9 /* BAExamplesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAExamplesTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA974E461BD3F33C00812D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA230B1BD4443A00DA7DA9 /* BracketBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA974E5F1BD3F33C00812D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA974E6A1BD3F33C00812D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA974E401BD3F33C00812D8D = {
+			isa = PBXGroup;
+			children = (
+				DADA23091BD4442D00DA7DA9 /* Carthage */,
+				DADA23021BD443E300DA7DA9 /* Assets */,
+				DA974E821BD3F3D000812D8D /* Classes */,
+				DA974E4B1BD3F33C00812D8D /* BracketApp */,
+				DA974E651BD3F33C00812D8D /* BracketAppTests */,
+				DA974E701BD3F33C00812D8D /* BracketAppUITests */,
+				DA974E4A1BD3F33C00812D8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA974E4A1BD3F33C00812D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA974E491BD3F33C00812D8D /* BracketApp.app */,
+				DA974E621BD3F33C00812D8D /* BracketAppTests.xctest */,
+				DA974E6D1BD3F33C00812D8D /* BracketAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA974E4B1BD3F33C00812D8D /* BracketApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA974E4F1BD3F33C00812D8D /* AppDelegate.h */,
+				DA974E501BD3F33C00812D8D /* AppDelegate.m */,
+				DA974E581BD3F33C00812D8D /* Assets.xcassets */,
+				DA974E5A1BD3F33C00812D8D /* LaunchScreen.storyboard */,
+				DA974E5D1BD3F33C00812D8D /* Info.plist */,
+				DA974E4C1BD3F33C00812D8D /* Supporting Files */,
+			);
+			path = BracketApp;
+			sourceTree = "<group>";
+		};
+		DA974E4C1BD3F33C00812D8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA974E4D1BD3F33C00812D8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA974E651BD3F33C00812D8D /* BracketAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA974E661BD3F33C00812D8D /* BracketAppTests.m */,
+				DA974E681BD3F33C00812D8D /* Info.plist */,
+			);
+			path = BracketAppTests;
+			sourceTree = "<group>";
+		};
+		DA974E701BD3F33C00812D8D /* BracketAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA974E711BD3F33C00812D8D /* BracketAppUITests.m */,
+				DA974E731BD3F33C00812D8D /* Info.plist */,
+			);
+			path = BracketAppUITests;
+			sourceTree = "<group>";
+		};
+		DA974E821BD3F3D000812D8D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA974E9A1BD3F47900812D8D /* Shared */,
+				DA974E831BD3F3D000812D8D /* Sections */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DA974E831BD3F3D000812D8D /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				DADA230D1BD4492500DA7DA9 /* Examples */,
+				DA974E841BD3F3D000812D8D /* Munchery */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		DA974E841BD3F3D000812D8D /* Munchery */ = {
+			isa = PBXGroup;
+			children = (
+				DA974E851BD3F3D000812D8D /* BAMuncheryViewController.h */,
+				DA974E861BD3F3D000812D8D /* BAMuncheryViewController.m */,
+			);
+			path = Munchery;
+			sourceTree = "<group>";
+		};
+		DA974E9A1BD3F47900812D8D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DA974E9B1BD3F47900812D8D /* Categories */,
+				DA974EAD1BD3F47900812D8D /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DA974E9B1BD3F47900812D8D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DA974E9E1BD3F47900812D8D /* UIBezierPath+BracketApp.h */,
+				DA974E9F1BD3F47900812D8D /* UIBezierPath+BracketApp.m */,
+				DA974EA01BD3F47900812D8D /* UIButton+BracketApp.h */,
+				DA974EA11BD3F47900812D8D /* UIButton+BracketApp.m */,
+				DA974EA21BD3F47900812D8D /* UIFont+BracketApp.h */,
+				DA974EA31BD3F47900812D8D /* UIFont+BracketApp.m */,
+				DA974EA41BD3F47900812D8D /* UILabel+BracketApp.h */,
+				DA974EA51BD3F47900812D8D /* UILabel+BracketApp.m */,
+				DA974EA61BD3F47900812D8D /* UITextField+BracketApp.h */,
+				DA974EA71BD3F47900812D8D /* UITextField+BracketApp.m */,
+				DA974EA81BD3F47900812D8D /* UIView+BracketApp.h */,
+				DA974EA91BD3F47900812D8D /* UIView+BracketApp.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DA974EAD1BD3F47900812D8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA974EAE1BD3F47900812D8D /* BADrawView.h */,
+				DA974EAF1BD3F47900812D8D /* BADrawView.m */,
+				DA974EB01BD3F47900812D8D /* BAThinLineView.h */,
+				DA974EB11BD3F47900812D8D /* BAThinLineView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DADA23021BD443E300DA7DA9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DADA23031BD443E300DA7DA9 /* munchery_roll.png */,
+				DADA23041BD443E300DA7DA9 /* star_normal.png */,
+				DADA23051BD443E300DA7DA9 /* star_selected.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DADA23091BD4442D00DA7DA9 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				DADA230A1BD4443A00DA7DA9 /* BracketBox.framework */,
+			);
+			name = Carthage;
+			sourceTree = "<group>";
+		};
+		DADA230D1BD4492500DA7DA9 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				DADA230E1BD4493800DA7DA9 /* BAExamplesTableViewController.h */,
+				DADA230F1BD4493800DA7DA9 /* BAExamplesTableViewController.m */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA974E481BD3F33C00812D8D /* BracketApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA974E761BD3F33C00812D8D /* Build configuration list for PBXNativeTarget "BracketApp" */;
+			buildPhases = (
+				DA974E451BD3F33C00812D8D /* Sources */,
+				DA974E461BD3F33C00812D8D /* Frameworks */,
+				DA974E471BD3F33C00812D8D /* Resources */,
+				DADA230C1BD4449E00DA7DA9 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BracketApp;
+			productName = BracketApp;
+			productReference = DA974E491BD3F33C00812D8D /* BracketApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA974E611BD3F33C00812D8D /* BracketAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA974E791BD3F33C00812D8D /* Build configuration list for PBXNativeTarget "BracketAppTests" */;
+			buildPhases = (
+				DA974E5E1BD3F33C00812D8D /* Sources */,
+				DA974E5F1BD3F33C00812D8D /* Frameworks */,
+				DA974E601BD3F33C00812D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA974E641BD3F33C00812D8D /* PBXTargetDependency */,
+			);
+			name = BracketAppTests;
+			productName = BracketAppTests;
+			productReference = DA974E621BD3F33C00812D8D /* BracketAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA974E6C1BD3F33C00812D8D /* BracketAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA974E7C1BD3F33C00812D8D /* Build configuration list for PBXNativeTarget "BracketAppUITests" */;
+			buildPhases = (
+				DA974E691BD3F33C00812D8D /* Sources */,
+				DA974E6A1BD3F33C00812D8D /* Frameworks */,
+				DA974E6B1BD3F33C00812D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA974E6F1BD3F33C00812D8D /* PBXTargetDependency */,
+			);
+			name = BracketAppUITests;
+			productName = BracketAppUITests;
+			productReference = DA974E6D1BD3F33C00812D8D /* BracketAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA974E411BD3F33C00812D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Anders Frank";
+				TargetAttributes = {
+					DA974E481BD3F33C00812D8D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DA974E611BD3F33C00812D8D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DA974E481BD3F33C00812D8D;
+					};
+					DA974E6C1BD3F33C00812D8D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DA974E481BD3F33C00812D8D;
+					};
+				};
+			};
+			buildConfigurationList = DA974E441BD3F33C00812D8D /* Build configuration list for PBXProject "BracketApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA974E401BD3F33C00812D8D;
+			productRefGroup = DA974E4A1BD3F33C00812D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA974E481BD3F33C00812D8D /* BracketApp */,
+				DA974E611BD3F33C00812D8D /* BracketAppTests */,
+				DA974E6C1BD3F33C00812D8D /* BracketAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA974E471BD3F33C00812D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA23071BD443E300DA7DA9 /* star_normal.png in Resources */,
+				DA974E5C1BD3F33C00812D8D /* LaunchScreen.storyboard in Resources */,
+				DA974E591BD3F33C00812D8D /* Assets.xcassets in Resources */,
+				DADA23061BD443E300DA7DA9 /* munchery_roll.png in Resources */,
+				DADA23081BD443E300DA7DA9 /* star_selected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA974E601BD3F33C00812D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA974E6B1BD3F33C00812D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DADA230C1BD4449E00DA7DA9 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/BracketBox.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA974E451BD3F33C00812D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA974E511BD3F33C00812D8D /* AppDelegate.m in Sources */,
+				DA974E871BD3F3D000812D8D /* BAMuncheryViewController.m in Sources */,
+				DA974EBA1BD3F47900812D8D /* BADrawView.m in Sources */,
+				DA974E4E1BD3F33C00812D8D /* main.m in Sources */,
+				DA974EB51BD3F47900812D8D /* UIFont+BracketApp.m in Sources */,
+				DA974EB61BD3F47900812D8D /* UILabel+BracketApp.m in Sources */,
+				DA974EB31BD3F47900812D8D /* UIBezierPath+BracketApp.m in Sources */,
+				DA974EB81BD3F47900812D8D /* UIView+BracketApp.m in Sources */,
+				DA974EB71BD3F47900812D8D /* UITextField+BracketApp.m in Sources */,
+				DA974EB41BD3F47900812D8D /* UIButton+BracketApp.m in Sources */,
+				DADA23101BD4493800DA7DA9 /* BAExamplesTableViewController.m in Sources */,
+				DA974EBB1BD3F47900812D8D /* BAThinLineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA974E5E1BD3F33C00812D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA974E671BD3F33C00812D8D /* BracketAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA974E691BD3F33C00812D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA974E721BD3F33C00812D8D /* BracketAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA974E641BD3F33C00812D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA974E481BD3F33C00812D8D /* BracketApp */;
+			targetProxy = DA974E631BD3F33C00812D8D /* PBXContainerItemProxy */;
+		};
+		DA974E6F1BD3F33C00812D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA974E481BD3F33C00812D8D /* BracketApp */;
+			targetProxy = DA974E6E1BD3F33C00812D8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA974E5A1BD3F33C00812D8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA974E5B1BD3F33C00812D8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA974E741BD3F33C00812D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA974E751BD3F33C00812D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA974E771BD3F33C00812D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BracketApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.andersfrank.BracketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA974E781BD3F33C00812D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BracketApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.andersfrank.BracketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA974E7A1BD3F33C00812D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BracketAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.andersfrank.BracketAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BracketApp.app/BracketApp";
+			};
+			name = Debug;
+		};
+		DA974E7B1BD3F33C00812D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BracketAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.andersfrank.BracketAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BracketApp.app/BracketApp";
+			};
+			name = Release;
+		};
+		DA974E7D1BD3F33C00812D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BracketAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.andersfrank.BracketAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BracketApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA974E7E1BD3F33C00812D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BracketAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.andersfrank.BracketAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BracketApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA974E441BD3F33C00812D8D /* Build configuration list for PBXProject "BracketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA974E741BD3F33C00812D8D /* Debug */,
+				DA974E751BD3F33C00812D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA974E761BD3F33C00812D8D /* Build configuration list for PBXNativeTarget "BracketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA974E771BD3F33C00812D8D /* Debug */,
+				DA974E781BD3F33C00812D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA974E791BD3F33C00812D8D /* Build configuration list for PBXNativeTarget "BracketAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA974E7A1BD3F33C00812D8D /* Debug */,
+				DA974E7B1BD3F33C00812D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA974E7C1BD3F33C00812D8D /* Build configuration list for PBXNativeTarget "BracketAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA974E7D1BD3F33C00812D8D /* Debug */,
+				DA974E7E1BD3F33C00812D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA974E411BD3F33C00812D8D /* Project object */;
+}
