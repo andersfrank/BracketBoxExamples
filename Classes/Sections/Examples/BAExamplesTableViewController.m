@@ -8,6 +8,7 @@
 
 #import "BAExamplesTableViewController.h"
 #import "BAMuncheryViewController.h"
+#import "BANewsFeedTableViewController.h"
 
 @interface BAExamplesTableViewController ()
 
@@ -21,7 +22,8 @@
     self = [super init];
     if (self) {
         self.title = @"Examples";
-        self.viewControllers = @[[BAMuncheryViewController new]];
+        self.viewControllers = @[[BAMuncheryViewController new],
+                                 [BANewsFeedTableViewController new]];
     }
     return self;
 }

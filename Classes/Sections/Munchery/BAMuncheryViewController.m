@@ -120,7 +120,7 @@
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    self.container.frame = self.view.bounds;
+    self.container.bb_node.size = self.view.bounds.size;
     self.imageView.bb_node.width = CGRectGetWidth(self.view.bounds) - 20;
     [self.container bb_flexLayout];
     self.container.contentSize = CGSizeMake(CGRectGetWidth(self.view.bounds), CGRectGetMaxY(self.detailsContainer.frame) + 18);

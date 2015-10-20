@@ -27,6 +27,24 @@
 		DADA23081BD443E300DA7DA9 /* star_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = DADA23051BD443E300DA7DA9 /* star_selected.png */; settings = {ASSET_TAGS = (); }; };
 		DADA230B1BD4443A00DA7DA9 /* BracketBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA230A1BD4443A00DA7DA9 /* BracketBox.framework */; settings = {ASSET_TAGS = (); }; };
 		DADA23101BD4493800DA7DA9 /* BAExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA230F1BD4493800DA7DA9 /* BAExamplesTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DAF6726B1BD52F70002D49DC /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF672611BD52F70002D49DC /* camera_icon.png */; settings = {ASSET_TAGS = (); }; };
+		DAF6726C1BD52F70002D49DC /* comment_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF672621BD52F70002D49DC /* comment_icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		DAF6726D1BD52F70002D49DC /* down_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF672631BD52F70002D49DC /* down_arrow@2x.png */; settings = {ASSET_TAGS = (); }; };
+		DAF6726E1BD52F70002D49DC /* like_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF672641BD52F70002D49DC /* like_icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		DAF6726F1BD52F70002D49DC /* news_feed_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF672651BD52F70002D49DC /* news_feed_icon.png */; settings = {ASSET_TAGS = (); }; };
+		DAF672701BD52F70002D49DC /* pen_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF672661BD52F70002D49DC /* pen_icon.png */; settings = {ASSET_TAGS = (); }; };
+		DAF672711BD52F70002D49DC /* persons_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF672671BD52F70002D49DC /* persons_icon.png */; settings = {ASSET_TAGS = (); }; };
+		DAF672721BD52F70002D49DC /* pin_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF672681BD52F70002D49DC /* pin_icon.png */; settings = {ASSET_TAGS = (); }; };
+		DAF672741BD52F70002D49DC /* share_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF6726A1BD52F70002D49DC /* share_icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		DAF6727D1BD53039002D49DC /* BANewsFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6727C1BD53039002D49DC /* BANewsFeedTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DAF672821BD530E1002D49DC /* BANewsFeedCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF672811BD530E1002D49DC /* BANewsFeedCellModel.m */; settings = {ASSET_TAGS = (); }; };
+		DAF672851BD53114002D49DC /* BAPostCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF672841BD53114002D49DC /* BAPostCellModel.m */; settings = {ASSET_TAGS = (); }; };
+		DAF6728B1BD53143002D49DC /* BANewsFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6728A1BD53143002D49DC /* BANewsFeedCell.m */; settings = {ASSET_TAGS = (); }; };
+		DAF6728E1BD53161002D49DC /* BAPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6728D1BD53161002D49DC /* BAPostCell.m */; settings = {ASSET_TAGS = (); }; };
+		DAF672941BD54680002D49DC /* UIView+NewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF672931BD54680002D49DC /* UIView+NewsFeed.m */; settings = {ASSET_TAGS = (); }; };
+		DAF672961BD55E7B002D49DC /* profile1_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF672951BD55E7B002D49DC /* profile1_icon.png */; settings = {ASSET_TAGS = (); }; };
+		DAF6729C1BD57DE3002D49DC /* BARoundedCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6729B1BD57DE3002D49DC /* BARoundedCornersView.m */; settings = {ASSET_TAGS = (); }; };
+		DAF6729F1BD60144002D49DC /* NSString+LoremIpsum.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6729E1BD60144002D49DC /* NSString+LoremIpsum.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +102,32 @@
 		DADA230A1BD4443A00DA7DA9 /* BracketBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BracketBox.framework; path = Carthage/Build/iOS/BracketBox.framework; sourceTree = "<group>"; };
 		DADA230E1BD4493800DA7DA9 /* BAExamplesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAExamplesTableViewController.h; sourceTree = "<group>"; };
 		DADA230F1BD4493800DA7DA9 /* BAExamplesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAExamplesTableViewController.m; sourceTree = "<group>"; };
+		DAF672611BD52F70002D49DC /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon.png; sourceTree = "<group>"; };
+		DAF672621BD52F70002D49DC /* comment_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment_icon@2x.png"; sourceTree = "<group>"; };
+		DAF672631BD52F70002D49DC /* down_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow@2x.png"; sourceTree = "<group>"; };
+		DAF672641BD52F70002D49DC /* like_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like_icon@2x.png"; sourceTree = "<group>"; };
+		DAF672651BD52F70002D49DC /* news_feed_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news_feed_icon.png; sourceTree = "<group>"; };
+		DAF672661BD52F70002D49DC /* pen_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen_icon.png; sourceTree = "<group>"; };
+		DAF672671BD52F70002D49DC /* persons_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = persons_icon.png; sourceTree = "<group>"; };
+		DAF672681BD52F70002D49DC /* pin_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_icon.png; sourceTree = "<group>"; };
+		DAF6726A1BD52F70002D49DC /* share_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_icon@2x.png"; sourceTree = "<group>"; };
+		DAF6727B1BD53039002D49DC /* BANewsFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANewsFeedTableViewController.h; sourceTree = "<group>"; };
+		DAF6727C1BD53039002D49DC /* BANewsFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BANewsFeedTableViewController.m; sourceTree = "<group>"; };
+		DAF672801BD530E1002D49DC /* BANewsFeedCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANewsFeedCellModel.h; sourceTree = "<group>"; };
+		DAF672811BD530E1002D49DC /* BANewsFeedCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BANewsFeedCellModel.m; sourceTree = "<group>"; };
+		DAF672831BD53114002D49DC /* BAPostCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPostCellModel.h; sourceTree = "<group>"; };
+		DAF672841BD53114002D49DC /* BAPostCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPostCellModel.m; sourceTree = "<group>"; };
+		DAF672891BD53143002D49DC /* BANewsFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANewsFeedCell.h; sourceTree = "<group>"; };
+		DAF6728A1BD53143002D49DC /* BANewsFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BANewsFeedCell.m; sourceTree = "<group>"; };
+		DAF6728C1BD53161002D49DC /* BAPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPostCell.h; sourceTree = "<group>"; };
+		DAF6728D1BD53161002D49DC /* BAPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPostCell.m; sourceTree = "<group>"; };
+		DAF672921BD54680002D49DC /* UIView+NewsFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NewsFeed.h"; sourceTree = "<group>"; };
+		DAF672931BD54680002D49DC /* UIView+NewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NewsFeed.m"; sourceTree = "<group>"; };
+		DAF672951BD55E7B002D49DC /* profile1_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile1_icon.png; sourceTree = "<group>"; };
+		DAF6729A1BD57DE3002D49DC /* BARoundedCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARoundedCornersView.h; sourceTree = "<group>"; };
+		DAF6729B1BD57DE3002D49DC /* BARoundedCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARoundedCornersView.m; sourceTree = "<group>"; };
+		DAF6729D1BD60144002D49DC /* NSString+LoremIpsum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LoremIpsum.h"; sourceTree = "<group>"; };
+		DAF6729E1BD60144002D49DC /* NSString+LoremIpsum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LoremIpsum.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +232,7 @@
 			children = (
 				DADA230D1BD4492500DA7DA9 /* Examples */,
 				DA974E841BD3F3D000812D8D /* Munchery */,
+				DAF672751BD52FA7002D49DC /* NewsFeed */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -225,6 +270,8 @@
 				DA974EA71BD3F47900812D8D /* UITextField+BracketApp.m */,
 				DA974EA81BD3F47900812D8D /* UIView+BracketApp.h */,
 				DA974EA91BD3F47900812D8D /* UIView+BracketApp.m */,
+				DAF6729D1BD60144002D49DC /* NSString+LoremIpsum.h */,
+				DAF6729E1BD60144002D49DC /* NSString+LoremIpsum.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -236,6 +283,8 @@
 				DA974EAF1BD3F47900812D8D /* BADrawView.m */,
 				DA974EB01BD3F47900812D8D /* BAThinLineView.h */,
 				DA974EB11BD3F47900812D8D /* BAThinLineView.m */,
+				DAF6729A1BD57DE3002D49DC /* BARoundedCornersView.h */,
+				DAF6729B1BD57DE3002D49DC /* BARoundedCornersView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -243,9 +292,19 @@
 		DADA23021BD443E300DA7DA9 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				DAF672611BD52F70002D49DC /* camera_icon.png */,
+				DAF672621BD52F70002D49DC /* comment_icon@2x.png */,
+				DAF672631BD52F70002D49DC /* down_arrow@2x.png */,
+				DAF672641BD52F70002D49DC /* like_icon@2x.png */,
+				DAF672651BD52F70002D49DC /* news_feed_icon.png */,
+				DAF672661BD52F70002D49DC /* pen_icon.png */,
+				DAF672671BD52F70002D49DC /* persons_icon.png */,
+				DAF672681BD52F70002D49DC /* pin_icon.png */,
+				DAF6726A1BD52F70002D49DC /* share_icon@2x.png */,
 				DADA23031BD443E300DA7DA9 /* munchery_roll.png */,
 				DADA23041BD443E300DA7DA9 /* star_normal.png */,
 				DADA23051BD443E300DA7DA9 /* star_selected.png */,
+				DAF672951BD55E7B002D49DC /* profile1_icon.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -265,6 +324,41 @@
 				DADA230F1BD4493800DA7DA9 /* BAExamplesTableViewController.m */,
 			);
 			path = Examples;
+			sourceTree = "<group>";
+		};
+		DAF672751BD52FA7002D49DC /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6727F1BD530B7002D49DC /* ViewModels */,
+				DAF6727A1BD53039002D49DC /* Views */,
+			);
+			path = NewsFeed;
+			sourceTree = "<group>";
+		};
+		DAF6727A1BD53039002D49DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6727B1BD53039002D49DC /* BANewsFeedTableViewController.h */,
+				DAF6727C1BD53039002D49DC /* BANewsFeedTableViewController.m */,
+				DAF672891BD53143002D49DC /* BANewsFeedCell.h */,
+				DAF6728A1BD53143002D49DC /* BANewsFeedCell.m */,
+				DAF6728C1BD53161002D49DC /* BAPostCell.h */,
+				DAF6728D1BD53161002D49DC /* BAPostCell.m */,
+				DAF672921BD54680002D49DC /* UIView+NewsFeed.h */,
+				DAF672931BD54680002D49DC /* UIView+NewsFeed.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAF6727F1BD530B7002D49DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DAF672801BD530E1002D49DC /* BANewsFeedCellModel.h */,
+				DAF672811BD530E1002D49DC /* BANewsFeedCellModel.m */,
+				DAF672831BD53114002D49DC /* BAPostCellModel.h */,
+				DAF672841BD53114002D49DC /* BAPostCellModel.m */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,9 +466,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DADA23071BD443E300DA7DA9 /* star_normal.png in Resources */,
+				DAF6726B1BD52F70002D49DC /* camera_icon.png in Resources */,
+				DAF672701BD52F70002D49DC /* pen_icon.png in Resources */,
 				DA974E5C1BD3F33C00812D8D /* LaunchScreen.storyboard in Resources */,
+				DAF6726E1BD52F70002D49DC /* like_icon@2x.png in Resources */,
+				DAF6726D1BD52F70002D49DC /* down_arrow@2x.png in Resources */,
+				DAF6726C1BD52F70002D49DC /* comment_icon@2x.png in Resources */,
 				DA974E591BD3F33C00812D8D /* Assets.xcassets in Resources */,
+				DAF6726F1BD52F70002D49DC /* news_feed_icon.png in Resources */,
+				DAF672741BD52F70002D49DC /* share_icon@2x.png in Resources */,
+				DAF672721BD52F70002D49DC /* pin_icon.png in Resources */,
+				DAF672711BD52F70002D49DC /* persons_icon.png in Resources */,
 				DADA23061BD443E300DA7DA9 /* munchery_roll.png in Resources */,
+				DAF672961BD55E7B002D49DC /* profile1_icon.png in Resources */,
 				DADA23081BD443E300DA7DA9 /* star_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,16 +524,24 @@
 			files = (
 				DA974E511BD3F33C00812D8D /* AppDelegate.m in Sources */,
 				DA974E871BD3F3D000812D8D /* BAMuncheryViewController.m in Sources */,
+				DAF6728E1BD53161002D49DC /* BAPostCell.m in Sources */,
 				DA974EBA1BD3F47900812D8D /* BADrawView.m in Sources */,
+				DAF6728B1BD53143002D49DC /* BANewsFeedCell.m in Sources */,
 				DA974E4E1BD3F33C00812D8D /* main.m in Sources */,
 				DA974EB51BD3F47900812D8D /* UIFont+BracketApp.m in Sources */,
+				DAF6727D1BD53039002D49DC /* BANewsFeedTableViewController.m in Sources */,
+				DAF672941BD54680002D49DC /* UIView+NewsFeed.m in Sources */,
 				DA974EB61BD3F47900812D8D /* UILabel+BracketApp.m in Sources */,
+				DAF6729C1BD57DE3002D49DC /* BARoundedCornersView.m in Sources */,
 				DA974EB31BD3F47900812D8D /* UIBezierPath+BracketApp.m in Sources */,
+				DAF6729F1BD60144002D49DC /* NSString+LoremIpsum.m in Sources */,
 				DA974EB81BD3F47900812D8D /* UIView+BracketApp.m in Sources */,
 				DA974EB71BD3F47900812D8D /* UITextField+BracketApp.m in Sources */,
 				DA974EB41BD3F47900812D8D /* UIButton+BracketApp.m in Sources */,
+				DAF672821BD530E1002D49DC /* BANewsFeedCellModel.m in Sources */,
 				DADA23101BD4493800DA7DA9 /* BAExamplesTableViewController.m in Sources */,
 				DA974EBB1BD3F47900812D8D /* BAThinLineView.m in Sources */,
+				DAF672851BD53114002D49DC /* BAPostCellModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
